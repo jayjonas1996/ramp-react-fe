@@ -23,7 +23,7 @@ export default class RampComponent extends React.Component {
         this.setState({
           date: new Date(),
         });
-      }, 500);
+      }, 100);
       return (
         <div>
           {this.state.date.toLocaleDateString('en-US', dateFormatOption)}
