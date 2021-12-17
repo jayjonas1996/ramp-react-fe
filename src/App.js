@@ -5,7 +5,11 @@ import RampComponent from './ramp.component';
 export default function App() {
   return (
     <div>
-      Ramp Component for frontend internship application: <br />
+      Ramp Component for frontend internship application (By Jay Naik): <br />
+      <a href="https://github.com/jayjonas1996/ramp-react-fe">
+        Link to the Repo
+      </a>
+      <br />
       <br />
       1: (Falsy)
       <RampComponent input={undefined}></RampComponent>
